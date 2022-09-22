@@ -1,0 +1,54 @@
+body{
+text-align: center;
+background: linear-gradient(-45deg, #00f7ff,#d000ff , #e73c7e, #f7ff01, #eeff00);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      height: 100vh;
+  }
+
+
+  h1{
+
+color: blue;
+background-color: cornsilk;
+
+  }
+
+#show_sketch{
+background-color: gold;
+float: right;
+}
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+  canvas {
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s; 
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes example {
+    from {box-shadow: 1px 1px 38px grey} 
+    to{box-shadow: 1px 1px 38px white}
+    }
+
+    p{
+
+padding-top: 10px;
+font-size: 25px;
+
+    }
